@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital@1&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+body {
+    margin-top: 50px;
+}
+
+.game-brd {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    width: 500px;
+    margin-left: 200px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.col {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+#col0, #col3, #col6 {
+    border-left:white;
+}
+
+#col2, #col5, #col8 {
+    border-right: white;
+}
+
+#col0, #col1, #col2 {
+    border-top: white;
+}
+
+#col6, #col7, #col8 {
+    border-bottom: 0px;
+}
+
+
+.container  button {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    margin-top: 70px;
+    margin-left: 350px;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bolder;
+    border: 2px solid black;
+}
+
+.container  button:hover {
+    background-color: black;
+    color: white;
+}
+
+.container  button:active {
+    background-color: rgb(68, 75, 87);
+}
+
+.bg-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal-content {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    font-weight: 900;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+#p1-name {
+    width: 200px;
+    margin-right: 10px;
+    padding: 3px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+#p2-name {
+    width: 200px;
+    padding: 3px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin-top: 6px;
+}
+
+.start-btn {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 140px;
+    background-color: white;
+    width: 200px;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+.start-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.start-btn:active {
+    background-color: rgb(68, 75, 87);
+}

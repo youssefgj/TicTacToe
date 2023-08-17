@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-brd">
+            <div class="col" id='col0'></div>
+            <div class="col" id='col1'></div>
+            <div class="col" id='col2'></div>
+            <div class="col" id='col3'></div>
+            <div class="col" id='col4'></div>
+            <div class="col" id='col5'></div>
+            <div class="col" id='col6'></div>
+            <div class="col" id='col7'></div>
+            <div class="col" id='col8'></div>
+        </div>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <button id="play">PLAY A GAME</button>
+    </div>
+
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+            <img src="P1P2.png" alt="A background image">
+            <form action="">
+                <input type="text" placeholder="PLAYER 1" id="p1-name">
+                <input type="text" placeholder="PLAYER 2" id="p2-name">
+                <button class="start-btn" type="button">START</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
